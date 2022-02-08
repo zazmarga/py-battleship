@@ -88,7 +88,7 @@ already declared methods. Feel free to add your own
 methods to extend the functionality.
 
 ### Extra tasks:
-# 1. Print field 
+#### 1. Print field 
 _It is recommended to implement this method, it will greatly simplify the debugging process!_
 
 Create method `print_field` which prints all
@@ -105,7 +105,7 @@ print(u"\u25A1")
 Feel free to use other symbols instead of these if you think it'd be better.
 
 
-# 2. Validate input
+#### 2. Validate input
 Write protected method `_validate_field` that
 should check the following conditions after creating
 a field in the constructor:
