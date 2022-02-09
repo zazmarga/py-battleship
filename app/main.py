@@ -27,7 +27,7 @@ class Battleship:
 
     def fire(self, location: tuple):
         # This function should check whether the location
-        # is a key in the `self.filed`
+        # is a key in the `self.field`
         # If it is, then it should check if this cell is the last alive
         # in the ship or not.
         pass
