@@ -22,7 +22,8 @@ class Battleship:
     def __init__(self, ships):
         # Create a dict `self.field`.
         # Its keys are tuples - the coordinates of the non-empty cells,
-        # A value for each cell is a reference to the ship which is located in it
+        # A value for each cell is a reference to the ship
+        # which is located in it
         pass
 
     def fire(self, location: tuple):
