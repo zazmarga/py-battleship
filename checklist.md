@@ -11,13 +11,13 @@ Don't use a redundant `return` statement if it doesn't do anything.
 
 Good example:
 ```python
-def change_item(self):
+def change_item(self) -> None:
     self.length += 2
 ```
 
 Bad example:
 ```python
-def change_item(self):
+def change_item(self) -> None:
     self.length += 2
     return
 ```
@@ -50,7 +50,7 @@ if a == d:
 
 ### 3. Don't use redundant `elif`.
 
-Don't use redundant `elif` if a non-empty `return` is used:
+Don't use redundant `else` if a non-empty `return` is used:
 
 Good example:
 ```python
