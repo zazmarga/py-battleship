@@ -112,7 +112,7 @@ Feel free to use other symbols instead of these if you think it'd be better.
 #### 2. Validate input
 Write protected method `_validate_field` that
 should check the following conditions after creating
-a field in the constructor:
+a field in the `__init__` method:
 - the total number of the ships should be 10;
 - there should be 4 single-deck ships;
 - there should be 3 double-deck ships; 
